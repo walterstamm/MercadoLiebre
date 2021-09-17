@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+header {
+  background-color: #eac926;
+  height: 25vh;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  background-color: #ebebeb;
+}
+h3 {
+  font-size: 24px;
+}
+
+section {
+  margin: 10px;
+}
+
+
+.precios {
+  font-size: 16px;
+}
+
+.DescuentoDescripcion {
+  font-size: 14px;
+  color: #208b12
+}
+.contenedor-descuento{
+
+  padding-top: 1vh;
+}
+.contenedor-descripcion{
+  padding-top: 3vh;
+}
+
+.Descripcion{
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+  color: #000;
+}
+.subtituloCompra {
+  display: inline;
+  font-size: 0.8rem;
+}
+
+.burger-menu {
+  background: blue;
+  color: white;
+  width: 2em;
+  height: 2em;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+
+.contenedor-burger{
+  display: flex;
+  margin-top: 2rem;
+}
+
+.contenedor-subtitulo{
+  display: flex;
+  justify-content: center;
+  padding: 0.6em;
+}
+
+footer i {
+  color: #1259c3;
+  width: 2em;
+  height: 2em;
+  margin: bottom 2px;
+}
+
+footer {
+  background-color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-truck {
+  color: #208b12;
+}
+
+.contenedor {
+  background-color: white;
+}
+.conteiner {
+  width: 90%;
+  margin: 5px;
+  padding: 15px;
+}
+
+.ofertas {
+  background-color: #ebebeb;
+}
+.contenedor-info{
+  display: flex;
+  
+}
+
+.precios{
+  padding: 1vw;
+}
+
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.contenedor-ofertas{
+  position: relative;
+  border-top: black 1px solid;
+  padding-top: 2vh;
+}
+
+
+.camioncito {
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  background-color: #FFF;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px; 
+}
+
+header a{
+  text-decoration: none;
+  color: #666;
+}
+
+.contenedor-logo{
+  display: flex;
+  justify-content: space-between;
+  padding:1em;
+}
+
+.main-navbar img{
+  width: 50%;
+}
+.main-navbar input{
+  max-width: 80%;
+  
+  margin: auto;
+}
+
+@media (min-width:560px) {
+  .nav-main{
+    display: none;
+  }
+}
+
+@media (min-width:990px) {
+  
+}
+
+@media (max-width:560px) {
+  
+  .Descripcion{
+    display: none;
+  }
+
+  .nav-main{
+    display: none;
+  }
+}
